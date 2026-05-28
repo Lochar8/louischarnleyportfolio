@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Louis Charnley Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1 id="logo">Louis Charnley</h1>
+        <nav aria-label="Main navigation">
+            
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <section class="herosection" aria-label="Hero section">
+            <div class="sectionrow">
+            <div class="flexcolumn" id="herocolumnlayout">
+                <h1 id="herotext">BSc Web and User Experience Design student at Manchester Metropolitan University, focused on optimising internal and external digital platforms through intuitive, accessible interface design that facilitates business workflows.</h1>
+                
+                <div id="navigationoptions" aria-label="Navigation Options">
+                    <ul>
+                        <li><a href="#projects" class="switch button">User Experience Design Projects</a></li>
+                        <li><a href="#WebDev" class="switch button">Interactive Digital Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sectionrow" id="herorowlayout">
+                <span id="smallwindow"></span>
+                <span id="largewindow"></span>
+            </div>
+            </div>
+            <div class="portfolio-banner">
+  <p><strong>Note:</strong> Hand-coded from scratch in VS Code for the SAS Web Student Placement deadline. Still a work in progress.</p>
+</div>
+        </section>
+
+        <section class="block" id="projects" aria-label="UX Design Projects">
+            <div class="divider"></div>
+            <h2>Understanding the problems and designing the solutions.</h2>
+            
+            <div class="large-block-grid" role="region" aria-label="Project cards">
+                <div class="card">
+                    <h2>MMU Library: Web Information Architecture Redesign</h2>
+                    <p>Helping Manchester Metropolitan University’s Library department’s services reach out to more students through the revision of their website content.</p>
+                    <button class="button1" data-popup="popup1"><span>More Details</span></button>
+                </div>
+
+                <div class="card">
+                    <h2>MMU Library: Ticket System Suggestion</h2>
+                    <p>Proposing and designing a centralized ticketing system integration for MMU’s Library department to streamline student inquiries and improve service accessibility.</p> 
+                    <button class="button1" data-popup="popup2"><span>More Details</span></button>
+                </div>
+
+                <div class="card">
+                    <h2>Triad: Integrated booking system for the NHS</h2>
+                    <p>To investigate the problems users are facing and design a booking system to improve patient waiting lists and streamline the booking process for the NHS.</p>
+                    <button class="button1" data-popup="popup3"><span>More Details</span></button>
+                </div>
+
+            </div> 
+        </section> 
+
+        <section class="block" id="WebDev" aria-label="Interactive Digital Projects">
+            <div class="divider"></div>
+            <h2>Designing accessible digital experiences.</h2>
+            
+            <div class="large-block-grid" role="region" aria-label="Web development project cards">
+                <div class="card">
+                    <h2>Mallorca Sailing: Web Development</h2>
+                    <p>To build a website using a Content Management systems (CMS) and using HTML, CSS, and JavaScript with Application Programming Interfaces (API) integration.</p>
+                    <button class="button1" data-popup="popup5"><span>More Details</span></button>
+                </div>
+            </div> 
+        </section>
+            
+        <section class="block" id="certificates" aria-label="Certificates and achievements">
+            <div class="divider"></div>
+            <h2>Certificates</h2>
+            <div class="flexrow" role="region" aria-label="Certificate cards">
+                <div class="certifcatecard">
+                    <h3>Triad: Certificate of Completion</h3>
+                    <img src="images/Louis Charnley - Certificate Of Participation (1)-1.png" alt="UX Design Triad Certificate of Completion">
+                </div>
+                <div class="certifcatecard">
+                    <h3>Google UX Professional: Certificate of Completion</h3>
+                    <a href="https://www.coursera.org/verify/professional-cert/4QB3KW2J7HVE" target="_blank" rel="noopener noreferrer">
+                        <img src="images/CERTIFICATE_LANDING_PAGE~4QB3KW2J7HVE.jpeg" alt="Google UX Professional Certificate of Completion">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div class="background-blur" id="popupOverlay" role="presentation" aria-hidden="true"></div>
+        
+        <div class="pop-up-block" id="popup1" role="dialog" aria-label="Project details: MMU Library Web Information Architecture Redesign">
+            <div class="flexcolumn">
+                <button class="backbutton material-symbols-outlined" href="back">close</button>
+                <div class="divider"></div>
+                <h2>MMU Library: User Experience Design</h2>
+                <p><b>Role: </b>UX Researcher and Designer</p>
+                <p><b>Timeline: </b>6 Weeks</p>
+                <p><b>Context: </b>Manchester Metropolitan University Project (2nd Year)</p>
+                <p><b>Goal: </b>Helping Manchester Metropolitan University’s Library department’s services reach out to more students through the revision of their website content.</p>
+                <p><b>The Response: </b>I began with heuristic evaluations and cognitive walkthroughs to identify design and navigation flaws, synthesising the findings into a persona and user journey map. I interviewed library stakeholders to cross-reference my data with their insights to measure initial alignment. I then collaborated with a peer to simplify technical terminology and validate revised navigation and visual hierarchy through wireframe sketches, where we then converted these validated ideas into a high-fidelity prototype. We then conducted user testing to measure the redesign’s success and identify and amend overlooked design flaws.</p>
+                <p><b>The Result: </b>We presented the project to the stakeholders, who have since implemented some of our proposed ideas into their development stage.</p>
+            </div>
+            <img src="images/Group 16.png" alt="The MMU Library project">
+            <button class="button1" href="back"><i class="material-symbols-outlined">close</i><span>Close</span></button>
+        </div>
+
+        <div class="pop-up-block" id="popup2" role="dialog" aria-label="Project details: MMU Library Ticket System Suggestion">
+            <div class="flexcolumn">
+                <button class="backbutton material-symbols-outlined" href="back">close</button>
+                <div class="divider"></div>
+                <h2>MMU Library: Ticket System Integration</h2>
+                <p><b>Role: </b>UX Researcher and Designer</p>
+                <p><b>Timeline: </b>2 Weeks</p>
+                <p><b>Context: </b>Following our project presentation with stakeholders, our ideas were met with genuine interest. We were given the opportunity to expand on other design solutions that would benefit the Library Department such as its integration into the university’s ticket system. This project was collaborative and self-led. (2nd Year)</p>
+                <p><b>Goal: </b>Helping Manchester Metropolitan University’s Library department’s services reach out to more students through the revision of their website content.</p>
+                <p><b>The Response: </b>My peer and I carried out secondary research into the pros and cons of using a ticket system compared to emails as a form of contact with students. This effort stemmed from feedback gathered during the usability test, where some participants expressed reluctance to email. Based on the university’s ticket system linking other departments, we redefined technical terms for better categorisation and smoother integration of the library department. We also modernised the UI to integrate it with the rest of the university’s main design system.</p>
+                <p><b>The Result: </b>We presented the entirety of the project to all Library department stakeholders, who confirmed that most of our redesign suggestions, most notably the ticket system, were part of their development strategy, with some being heavily inspired by our previous presentation.</p>
+            </div>
+            <img src="images/Group 13.png" alt="The MMU Library Ticket system project">
+            <button class="button1" href="back"><i class="material-symbols-outlined">close</i><span>Close</span></button>
+        </div>
+
+        <div class="pop-up-block" id="popup3" role="dialog" aria-label="Project details: Triad Integrated Booking System">
+            <div class="flexcolumn">
+                <button class="backbutton material-symbols-outlined" href="back">close</button>
+                <div class="divider"></div>
+                <h2>Triad: Integrated booking system for the NHS</h2>
+                <p><b>Role: </b>UX Researcher and Designer</p>
+                <p><b>Timeline: </b>6 Weeks</p>
+                <p><b>Context: </b>Manchester Metropolitan University and Triad design challenge open to all years studying for a bachelor's degree in Web and User Experience Design at MMU. (1st Year)</p>
+                <p><b>Goal: </b>To investigate the problems users are facing and design a booking system to improve patient waiting lists and streamline the booking process for the NHS.</p>
+                <p><b>The Response: </b>I looked at all the different stakeholders that would be impacted by a revision of the current booking process, which involved understanding the different booking systems that exist and how each party communicates with one another. I then conducted primary research, using interview scripts focusing on communication issues between stakeholders within the current booking system to determine clear pain points. Based on findings, I created personas, a user journey map, and a problem statement to synthesise data for a clearer visualisation of the problem and future communication to clients. The high-fidelity prototypes presented a hub centralising past and future visits with clear “next-steps” to keep all stakeholders informed, much like <a href="https://www.mymft.nhs.uk/" target="_blank" rel="noopener noreferrer">MyMFT</a>.</p>
+                <p><b>The Result: </b>Strong praise from the Triad reviewer for the solution, especially for the research, with improvement opportunities for the presentation of information in the prototype. This project was hypothetical and therefore there were no real clients.</p>
+            </div>
+            <img src="images/Group 14.png" alt="The Triad project">
+            <button class="button1" href="back"><i class="material-symbols-outlined">close</i><span>Close</span></button>
+        </div>
+
+        <div class="pop-up-block" id="popup4" role="dialog" aria-label="Project details: GMCA + Barclays Buildathon">
+            <div class="flexcolumn">
+                <button class="backbutton material-symbols-outlined" href="back">close</button>
+                <div class="divider"></div>
+                <h2>GMCA + Barclays Buildathon: User Experience Design</h2>
+                <p>Add your project details here.</p>
+            </div>
+            <button class="button1" href="back"><i class="material-symbols-outlined">close</i><span>Close</span></button>
+        </div>
+
+        <div class="pop-up-block" id="popup5" role="dialog" aria-label="Project details: Mallorca Sailing Website Development">
+            <div class="flexcolumn">
+                <button class="backbutton material-symbols-outlined" href="back">close</button>
+                <div class="divider"></div>
+                <h2>Mallorca Sailing: Website Development</h2>
+                <p><b>Role: </b>Web Developer</p>
+                <p><b>Timeline: </b>6 Weeks</p>
+                <p><b>Context: </b>Manchester Metropolitan University Project (2nd Year)</p>
+                <p><b>Goal: </b>To build a website using a Content Management systems (CMS) and using HTML,CSS, and JavaScript with Application Programming Interfaces (API) integration.</p>
+                <p><b>The Response: </b>The purpose of the website aims to inform users about the past and upcoming sailing events in Mallorca (Spain). It also aims to create a local community with the implementation of a community forum (demo). I plan to expand on the content following on from feedback with a potential user making the outreach cover the whole of the Mediterranean. Pages include: home page (index), events page (events), learn page (learn), forum page (forum), and the first event page (eventpage).</p>
+                <p><b>Accessibility: </b>Both websites were designed abide by the Web Content Accessibility Guidelines with my custom-coded website reaching scores of 95% (abiding UK law).</p>
+                <p><b>Link to site: </b><a href="https://lochar8.github.io/miniature-barnacle/" target="_blank">https://lochar8.github.io/miniature-barnacle/</a></p>
+            </div>
+            <div class="flexrow">
+                <img src="images/ScreenShot Tool -20260521195731 1.png" alt="The Mallorca Sailing Website">
+                <img src="images/image 17.png" alt="Accessibility report of the Mallorca Sailing Website">
+            </div>
+            <button class="button1" href="back"><i class="material-symbols-outlined">close</i><span>Close</span></button>
+        </div>
+    </main>
+
+    <footer aria-label="Footer">
+        <p>&copy; 2026 Louis Charnley. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const buttons = document.querySelectorAll('.button1');
+        const overlay = document.getElementById('popupOverlay');
+        let savedScrollPosition = 0;
+
+        function closePopups() {
+            overlay.style.display = 'none';
+            document.querySelectorAll('.pop-up-block').forEach(popup => {
+                popup.style.display = 'none';
+            });
+            window.scrollTo(0, savedScrollPosition);
+        }
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                savedScrollPosition = window.scrollY;
+                const popupId = button.getAttribute('data-popup');
+                const popup = document.getElementById(popupId);
+                
+                overlay.style.display = 'block';
+                popup.style.display = 'flex';
+            });
+        });
+
+        overlay.addEventListener('click', closePopups);
+
+        // Targeted custom close interactions accurately
+        document.querySelectorAll('[href="back"]').forEach(button => {
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
+                closePopups();
+            });
+        });
+    </script>
+</body>
+</html>
